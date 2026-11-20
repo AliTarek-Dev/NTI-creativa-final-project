@@ -23,19 +23,6 @@ if (rangeInput && rangeOutput) {
 }
 
 
-if (FindStays && FlightTitle) {
-    FindStays.addEventListener("click", function (e) {
-        e.preventDefault();
-        FindStays.classList.add("oil-green");
-        FlightTitle.classList.remove("oil-green");
-    });
-
-    FlightTitle.addEventListener("click", function (e) {
-        e.preventDefault();
-        FlightTitle.classList.add("oil-green");
-        FindStays.classList.remove("oil-green");
-    });
-}
 
 
 if (Prompobtn && promoMsg) {
